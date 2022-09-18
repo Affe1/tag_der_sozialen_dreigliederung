@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:hsl(75, 40%, 85%);
+    color: #6C6A78;
+    font-family:sans-serif;
+   
+}
+h1,h2,p{
+    margin-right: 150px;
+    margin-left: 150px;
+}
+#plak{
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+#info{
+    display:grid;
+   
+}
+.abstand{
+    margin-left: 165px;
+
+
+}
+.button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #C3D4BE;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: #6C6A78;
+    font-weight: bold;
+    line-height: 25px;
+}
+.button p{
+    margin:0;
+    float: right;
+}
+#plakat {
+    width: 274px;
+   height: 331px;
+   margin-left: 150px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 900,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+#cp{
+    background-color: #C3D4BE;
+    border-radius: 7px;
+    padding: 10px;
+     width: 180px;
+}
+#links{
+    grid-row:0;
+   
+}
+#impressum{
+    float: right;
+   
+    margin-right: 15px;
+    color: hsl(207, 12%, 70%);
+    text-decoration:none;
+}
+
+
+#unterstuetzer{
+    background-color: #C3D4BE;
+    color: #6C6A78;
+   
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    
+}
+#color{
+    color:#788895 ;
+}
+
+ a{
+    color: hsl(207, 12%, 50%);
+    text-decoration:none;
+    display: flex;
+    margin-left: 160px;
+    margin-top: 20px;
+   
+}
+.ifr{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#image{
+    grid-row: 0;
+    grid-column:2;
+    margin-right: 200px;
+    margin-bottom: 50px;
+}
+.images{
+    width: 120px;
+    height: 100px;
+    padding:10px;
+    
+   
+}
