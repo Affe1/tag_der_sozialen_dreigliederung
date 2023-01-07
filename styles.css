@@ -134,7 +134,17 @@ h1,h2,p{
    width:320px;
     height: 260px;
    }
-   
+abstand{
+    margin-left: 135px;
+
+
+}
+
+   #plakat {
+    width: 274px;
+   height: 331px;
+   margin-left: 125px;
+}
    
    
 }
@@ -159,10 +169,19 @@ h1,h2,p{
    display: none;
    }
    .responsive-video iframe {
-   width:280px;
-    height: 220px;
+   width:285px;
+    height: 200px;
    }
    
-   
+   abstand{
+    margin-left: 100px;
+
+
+}
+#plakat {
+    width: 274px;
+   height: 331px;
+   margin-left: 90px;
+}
    
 }
