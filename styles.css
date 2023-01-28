@@ -6,7 +6,7 @@ body{
     font-family:sans-serif;
    
 }
-h1,h2,p{
+h1,h2,p,ul{
     margin-right: 150px;
     margin-left: 150px;
 }
@@ -185,3 +185,73 @@ abstand{
 }
    
 }
+
+
+
+ul a{
+    display:inline;
+    padding: 0;
+    margin: 0;
+}
+.select {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 130px;
+    position: relative;
+    min-width: 200px;
+   
+  }
+  .select svg {
+    position: absolute;
+    right: 12px;
+    top: calc(50% - 3px);
+    width: 10px;
+    height: 6px;
+    stroke-width: 2px;
+    stroke: hsl(249, 6%, 34%);
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    pointer-events: none;
+  }
+  .select select {
+    -webkit-appearance: none;
+    padding: 7px 40px 7px 12px;
+    width: 200px;
+    color: hsl(249, 6%, 34%);
+    border: 1px solid #e8eaed;
+    border-radius: 8px;
+    background: #C3D4BE;
+    box-shadow: 0 1px 3px -2px hsl(221, 13%, 61%);
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+    transition: all 150ms ease;
+  }
+  .select select:required:invalid {
+    color: #5a667f;
+  }
+  .select select option {
+    color: hsl(249, 6%, 34%);
+    
+  }
+  .select select option[value=""][disabled] {
+    display: none;
+   
+  }
+  .select select:focus {
+    outline: none;
+  
+ 
+   
+  }
+  .select select:hover + svg {
+    stroke: #07f;
+  }
+  .sprites {
+    position: absolute;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    user-select: none;
+  }
