@@ -8,7 +8,7 @@
     <link rel="icon" type="image/jpeg" href="images-removebg-preview.png">
     <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-   
+    <script src="script.js" defer></script>
     <title>TagDreigliederung23</title>
 </head>
 <body>
@@ -32,6 +32,12 @@
     Durch Begegnungen, Feste, Vorträge (Filmen), Tanz und Musik, Wanderungen, Workshops oder schlichten Gesprächs/Lesekreisen wird dies gefördert. <br><b> Einzelne Orte und Zeiten können hier eingesehen sowie gemeldet werden</b><br>
     <b>Wegen der Fülle und Spontanität können hier nur einge Veranstaltungen platziert werden</b><br><br>
    <b>Zahlreiches Weitersagen ist die beste Grundlage allseitiger Verständigung!</b>
+     
+      <br><br>
+   <h2>Termine:</h2>
+ 
+   <p><ul> <li> Austauch von Sichtweisen zur S. Dreigliederung, Impulsvorträge, Raum für Gespräche
+ <a href="https://www.schloss-hohenfels.de/"> Schloss Hohenfels </a></li></ul></p>
     </p><br>
 
 
@@ -62,14 +68,34 @@
 
 
 <div id="plak">
-   <h2>Plakat zum (Ergänzen und) Ausdrucken</h2>
-    <img  id="plakat" src="250285.jpg" alt="bild">
-    <p class="abstand">Tag der Sozialen Dreigliederung</p>
-    <h1 class="abstand">25.6.2023</h1>
-    <a class="button" href="plakat.pdf" download="Plakat"><span class="material-symbols-outlined">
+    <h2>Plakat zum (Ergänzen und) Ausdrucken</h2>
+     <img  id="plakat" src="250285.jpg" alt="bild">
+     <p class="abstand">Tag der Sozialen Dreigliederung</p>
+     <h1 class="abstand">25.6.2023</h1>
+     <label class="select" for="slct">
+        <select id="slct" name="cards" required="required">
+          <option value="deutsch" selected="selected">Deutsch</option>
+          <option value="englisch" >Englisch</option>
+          <option value="russisch">Russisch</option>
+        </select>
+        <svg>
+          <use xlink:href="#select-arrow-down"></use>
+        </svg>
+      </label>
+      <!-- SVG Sprites-->
+      <svg class="sprites">
+        <symbol id="select-arrow-down" viewbox="0 0 10 6">
+          <polyline points="1 1 5 5 9 1"></polyline>
+        </symbol>
+      </svg><br>
+
+      <a class="button" href="plakat.pdf" id="down" download="Plakat"><span class="material-symbols-outlined">
         download
         </span> <p>Download</p></a>
-</div>
+         
+      
+
+ </div>
 
  <div id="unterstuetzer">
     <h1>Unterstützer</h1>
