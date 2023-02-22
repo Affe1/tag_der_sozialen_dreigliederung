@@ -15,5 +15,9 @@ sel.addEventListener ("change", function () {
     {
         down.href ='plakat(rus).pdf'
     }
+      if(this.value == "französisch")
+    {
+        down.href ='plakat(fr).pdf'
+    }
  
 });
