@@ -144,6 +144,10 @@ abstand{
 
 
 }
+    
+    responsive{
+          margin-left: 145px;
+    }
 
    #plakat {
     width: 274px;
@@ -183,6 +187,10 @@ abstand{
 
 
 }
+    responsive{
+          margin-left: 110px;
+    }
+    
 #plakat {
     width: 274px;
    height: 331px;
