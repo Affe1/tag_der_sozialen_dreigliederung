@@ -52,7 +52,12 @@ h1,h2,p,ul{
   'GRAD' 0,
   'opsz' 48
 }
+responsive{
 
+margin: auto;
+
+
+}
 #cp{
     background-color: #C3D4BE;
     border-radius: 7px;
