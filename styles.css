@@ -268,3 +268,6 @@ ul a{
     pointer-events: none;
     user-select: none;
   }
+ul a{
+    text-decoration: underline;
+}
